@@ -1,0 +1,27 @@
+function is_name_valid(name) {
+  var uppercaseRe = /[A-Z]/g;
+  	if(Name.length == 3 && Name.match(uppercaseRe).length == Name.length) {
+    	return true;
+    }
+    return false;
+}
+function is_age_valid(age) {
+  var numberRe = /[0-9]/g;
+  if(age.length == 2 && numberRe.test(age)) {
+    	return true;
+    }
+    return false;
+}
+function is_username_valid(username) {
+  // Huruf dari a sampai z
+  var lowercaseRe = /[a-z]/g;
+  var specialRe = /[_.]/g;
+  var numberRe = /[0-9]/g;
+  
+  // check panjang string dan memastikan karater yang ditemukan sama dengan panjang string
+	if(username.length == 8 && username.match(lowercaseRe).length == 4 && username.match(specialRe) && username.match(numberRe).lenght==3
+    {
+    return true;
+    }
+    return false;
+}
