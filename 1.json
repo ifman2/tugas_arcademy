@@ -1,0 +1,24 @@
+
+{
+  "nama": "MIFTAHURRAHMAN",
+  "age": "21",
+  "address": "Jl.Sisinga Mangaraja Gg.Taqwa Minas Jaya",
+  "hobbies": [
+    "sepak bola",
+    "menonton"
+  ],
+  "is_married": false,
+  "list_school": [
+    {
+      "name": "IAIN Bukittinggi",
+      "year_in": 2014,
+      "year_out": 2019
+    },
+    {
+      "name": "Mechandiser",
+      "year_in": 2018,
+      "year_out": 2019
+    }
+  ],
+  "interest_in_coding": true
+}
